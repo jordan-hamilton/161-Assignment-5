@@ -31,7 +31,7 @@ About using multiple files:
 
 1. Make sure you've read and understood section 7.11.
 2.  Box.hpp should have "include guards" as discussed on page in section 7.11 (use "BOX_HPP").
-3.  Box.cpp needs to #include Box.hpp.  When you include your own .hpp files (header files), put double quotes around them instead of angled brackets.  (You should only #include .hpp files, not .cpp files.)
+3.  Box.cpp needs to #include Box.hpp.  When you include your own .hpp files (header files), put double quotes around them instead of angled brackets.  (You should only #include .hpp files, **not** .cpp files.)
 4.  When testing your program with your own main method, put it in a separate file (this is the "client" code) and give it a name with a .cpp extension.
 5.  Your main method also needs to #include Box.hpp.
 6.  If you named the file with your main method "boxMain.cpp", then you can compile your program with "g++ Box.cpp boxMain.cpp -o box".
