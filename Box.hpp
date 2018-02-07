@@ -1,6 +1,7 @@
 #ifndef BOX_HPP
 #define BOX_HPP
 
+
 class Box {
 
   private:
@@ -16,6 +17,8 @@ class Box {
     void setLength(double lengthIn);
     double calcVolume();
     double calcSurfaceArea();
+
 };
+
 
 #endif
