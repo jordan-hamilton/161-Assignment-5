@@ -1,3 +1,9 @@
+/*********************************************************************
+ ** Author: Jordan Hamilton
+ ** Date: 02/07/2018
+ ** Description: Specification file for the Taxicab class.
+ *********************************************************************/
+
 #ifndef TAXICAB_HPP
 #define TAXICAB_HPP
 
